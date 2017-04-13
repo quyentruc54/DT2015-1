@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data", "Data\Data.csproj", "{FFAD5E26-9D68-4FA8-88CC-518E4670D498}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BDTD", "BDTD\BDTD.csproj", "{0F5A8CA2-5567-48A0-B1D2-C8036A3F402E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FFAD5E26-9D68-4FA8-88CC-518E4670D498}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFAD5E26-9D68-4FA8-88CC-518E4670D498}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFAD5E26-9D68-4FA8-88CC-518E4670D498}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFAD5E26-9D68-4FA8-88CC-518E4670D498}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F5A8CA2-5567-48A0-B1D2-C8036A3F402E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F5A8CA2-5567-48A0-B1D2-C8036A3F402E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F5A8CA2-5567-48A0-B1D2-C8036A3F402E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F5A8CA2-5567-48A0-B1D2-C8036A3F402E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
