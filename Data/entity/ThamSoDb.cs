@@ -6,9 +6,11 @@ using System.Threading.Tasks;
 
 namespace Data.entity
 {
-  public   class ThamSoDb
+  public   class ThamSoDb:EntityDb
     {
       public string TenThamSo { get; set; }
       public string GiaTriThamSo { get; set; }
+        public ThamSoDb(System.Data.DataRow row):base(row) { }
+        public ThamSoDb() { }
     }
 }

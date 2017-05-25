@@ -12,11 +12,8 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-using Data;
-using Data.entity;
-using Data.model;
-using System.Data.Entity;
-namespace BDTD
+
+namespace BDTBGui
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
@@ -24,14 +21,8 @@ namespace BDTD
     public partial class MainWindow : Window
     {
         public MainWindow()
-        {            
+        {
             InitializeComponent();
-            //CameraDb c = new CameraDb(1,1,1,"8.8.8.8","8080","Quyen", "KKKK");
-            //DatabaseModel db = new DatabaseModel("BDTD");
-            //db.Connect();
-            //db.select( "CameraDb");
         }
-
-
     }
 }

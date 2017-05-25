@@ -6,11 +6,23 @@ using System.Threading.Tasks;
 
 namespace Data.entity
 {
- public   class DonViDb
+ public   class DonViDb:EntityDb
     {
-     public string IdDonVi { get; set; }
-     public string IdDonViCha { get; set; }
-     public string IdTen { get; set; }
-
+     public int IdDonVi { get; set; }
+     public int IdDonViCha { get; set; }
+     public string Ten { get; set; }
+      //  public string TenDonViTrucThuoc { get; private set; }
+        public DonViDb (System.Data.DataRow row):base(row)
+        {
+        }
+        public DonViDb()
+        {
+        }
+        public DonViDb (int id, int parent, string name  )
+        {
+            IdDonVi = id;
+            IdDonViCha = parent;
+            Ten = name;
+        }
     }
 }
